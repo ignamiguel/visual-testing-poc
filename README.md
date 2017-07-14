@@ -1,1 +1,3 @@
-# visual-testing-poc
+# Visual Testing with Applitools
+
+
