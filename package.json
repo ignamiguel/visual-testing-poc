@@ -2,7 +2,9 @@
   "name": "visual-testing-applitools",
   "version": "0.1.0",
   "description": "Visual Testing with Applitools",
-  "scripts": {},
+  "scripts": {
+    "test": "protractor config/conf.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ignamiguel/visual-testing-poc.git"
@@ -19,6 +21,7 @@
     "jasmine-spec-reporter": "^4.1.1"
   },
   "dependencies": {
+    "eyes.selenium": "0.0.69",
     "protractor": "^5.1.1"
   }
 }
