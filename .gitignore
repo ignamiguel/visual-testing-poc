@@ -1,0 +1,16 @@
+### VisualStudioCode ###
+.vscode
+
+node_modules
+npm-debug.log
+.DS_Store
+.tscache
+.settings
+.vscode/
+test/.baseDir.ts
+*.tmp.txt
+jsconfig.json
+.typings/
+testresults
+dist
+reports/
