@@ -4,7 +4,9 @@ exports.config = {
   framework: 'jasmine',
   seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: [
-    '../test/spec.js'
+    // '../test/spec.test.js',
+    // '../test/visual-test.test.js',
+    '../test/demo2.test.js'
   ],
 
   onPrepare: function () {

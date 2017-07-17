@@ -14,3 +14,4 @@ jsconfig.json
 testresults
 dist
 reports/
+src/resources/applitools.key.js
