@@ -1,7 +1,7 @@
-let browser = require('protractor');
-let Eyes = require('eyes.selenium').Eyes;
-let applitools = require('../src/resources/applitools.key').applitools;
-let eyes = new Eyes();
+const browser = require('protractor');
+const Eyes = require('eyes.selenium').Eyes;
+const applitools = require('../src/resources/applitools.key').applitools;
+const eyes = new Eyes();
 // This is your api key, make sure you use it in all your tests.
 eyes.setApiKey(applitools.key);
  

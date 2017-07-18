@@ -1,7 +1,7 @@
 // Initialize the eyes SDK and set your private API key.
-var Eyes = require("eyes.selenium").Eyes;
-var eyes = new Eyes();
-let applitools = require('../src/resources/applitools.key').applitools;
+const Eyes = require("eyes.selenium").Eyes;
+const eyes = new Eyes();
+const applitools = require('../src/resources/applitools.key').applitools;
 eyes.setApiKey(applitools.key);
 
 describe("Hello World test!", function() {

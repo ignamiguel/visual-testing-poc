@@ -6,7 +6,8 @@ exports.config = {
   specs: [
     // '../test/spec.test.js',
     // '../test/visual-test.test.js',
-    '../test/demo2.test.js'
+    // '../test/demo2.test.js',
+    // '../test/mule-home.test.js'    
   ],
 
   onPrepare: function () {
